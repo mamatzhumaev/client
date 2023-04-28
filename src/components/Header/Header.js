@@ -15,10 +15,10 @@ export const Header = () => {
                     </div>
                     <div className={styles.buttons}>
                         <Button variant='contained' color='error'> Выйти</Button>
-                        <Link to='/login'>
+                        <Link to='/auth/sign-in'>
                             <Button variant='contained'>Войти</Button>
                         </Link>
-                        <Link to='/register'>
+                        <Link to='/auth/register'>
                             <Button variant='contained'>Создать аккаунт</Button>
                         </Link>
                     </div>
